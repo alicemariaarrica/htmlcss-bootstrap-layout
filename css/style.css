@@ -1,3 +1,19 @@
  *{
     font-size: xx-small;
  }
+
+ .bg-yellow{
+    background-color:darkgoldenrod;
+ }
+
+ .bg-aqua{
+    background-color: aqua;
+ }
+
+ .bg-green{
+    background-color: green;
+ }
+
+ .bg-darkblue{
+    background-color: blue;
+ }

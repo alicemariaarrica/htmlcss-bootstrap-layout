@@ -11,51 +11,57 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body class="debug">
-    <header class="py-4 bg-primary text-white">
-        <div class="container sm">
-            <h1 class="text-center fs-3"> 5 Responsive Grid</h1>
-            <h2 class="text-center fs-6">Layout a griglia con diversi breakpoint (sm, md, lg)</h2>
-        </div>
+<body>
+    <header class="title">
+        <div class="container fluid bg-white text-black">
+            <div class="header py-5 px-1">
+                <h1 class="text-center fs-3"> Bootstrap 5 Responsive Grid</h1>
+                <h2 class="text-center fs-6">Layout a griglia con diversi breakpoint (sm, md, lg)</h2>
+            </div>
     </header>
 
     <main>
 
 
-        <div class="container">
-            <div class="row py-4">
-                <div class="col-12 bg-transparent py-4 pb-1">
-                    <div class="fs-6">Colonna1</div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto nesciunt cupiditate
-
-                    <div class="col-12 bg-secondary text-white py-1 pb-1">
-                        <div class="fs-6">Colonna2</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto nesciunt cupiditate
-
-                        </p>
-                    </div>
+        <div class="container mb-4">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3 bg-transparent py-5 pb-5">
+                    <div class="fs-4 fw-bold">Colonna1</div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto nesciunt cupiditate</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-9 bg-secondary text-white py-5 pb-5">
+                    <div class="fs-4 fw-bold">Colonna2</div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto nesciunt cupiditate</p>
                 </div>
             </div>
         </div>
 
 
 
-
-
-        <div class="container">
+        <div class="container mb-4">
             <div class="row">
-                <div class="col-6">
-                    <div class="fs-6">Colonna1</div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto nesciunt cupiditate
-                    </p>
+                <div class="col-sm-6 col-md-4  py-5 pb-5 bg-darkblue">
+                    <div class="fs-6">Colonna1
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto nesciunt cupiditate
+                        </p>
+                    </div>
                 </div>
-                <div class="col-6">
+                <div class="col-sm-6 col-md-4 py-5 pb-5  bg-green">
                     <div class="fs-6">Colonna2
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto nesciunt
                             cupiditate
                         </p>
                     </div>
                 </div>
+
+                <div class="col-sm-12 col-md-4 py-5 pb-5 bg-danger">
+                    <div class="fs-6">Colonna3
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto nesciunt
+                            cupiditate
+                        </p>
+                    </div>
+                </div>
+
             </div>
         </div>
 
@@ -63,11 +69,31 @@
 
 
         <div class="container">
-            <div class="row">
-                <div class="col 6">Colonna1</div>
-                <div class="col 6">Colonna2</div>
-                <div class="col 6 ">Colonna3</div>
-                <div class="col 6">Colonna4</div>
+            <div class="row text-start">
+                <div class="col-sm-6 col-md-3 bg-aqua text-white py-5 pb-5 fs-2 fw-bold">Colonna1 <p class="fs-6">Lorem
+                        ipsum dolor sit amet consectetur, adipisicing elit. Architecto
+                        nesciunt
+                        cupiditate
+                    </p>
+                </div>
+                <div class="col-sm-6 col-md-3 bg-yellow text-white py-5 pb-5 fs-3 fw-bold">Colonna2 <p>Lorem ipsum dolor
+                        sit amet consectetur, adipisicing elit. Architecto
+                        nesciunt
+                        cupiditate
+                    </p>
+                </div>
+                <div class="col-sm-6 col-md-3 bg-dark text-white py-5 pb-5 fs-3 fw-bold ml-4">Colonna3 <p>Lorem ipsum
+                        dolor sit amet consectetur, adipisicing elit. Architecto
+                        nesciunt
+                        cupiditate
+                    </p>
+                </div>
+                <div class="col-sm-6 col-md-3 bg-white text-black py-5 pb-5 fs-3 fw-bold mr-4">Colonna4 <p>Lorem ipsum
+                        dolor sit amet consectetur, adipisicing elit. Architecto
+                        nesciunt
+                        cupiditate
+                    </p>
+                </div>
             </div>
         </div>
 
